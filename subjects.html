@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOLARSCRIBE Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D6DAC8; /* Background color */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            color: #343a40;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .subject {
+            background-color: #102C57; /* Subject background color */
+            color: #FEFAF6; /* Font color */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .subject h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .subject ul {
+            padding: 0;
+            margin-left: 20px;
+            list-style: none; /* Remove default list styles */
+        }
+        .subject ul li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .subject ul li::before {
+            content: "•"; /* Custom bullet point */
+            color: #FEFAF6; /* Bullet point color */
+            font-size: 1.2rem;
+            position: absolute;
+            left: -20px;
+            top: 5px;
+        }
+        .graphic {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .graphic img {
+            width: 80%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SCHOLARSCRIBE Services</h1>
+            <p>SCHOLARSCRIBE provides services on major subjects and technical fields.</p>
+        </header>
+        <div class="content">
+            <div class="subject">
+                <h2>Major Subjects</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>Biology</li>
+                    <li>Mathematics</li>
+                    <li>Calculus 1, 2, 3</li>
+                    <li>Linear Algebra</li>
+                    <li>Management</li>
+                    <li>Accounting</li>
+                    <li>Finance</li>
+                    <li>Statistics</li>
+                </ul>
+            </div>
+            <div class="subject">
+                <h2>Technical Subjects</h2>
+                <ul>
+                    <li>Computer Science</li>
+                    <li>Mechanical Engineering</li>
+                    <li>Electronic Engineering</li>
+                    <li>Civil Engineering</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

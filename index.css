@@ -1,0 +1,283 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+body{
+    background: #F9EFDB;
+    color: #d31b1b;
+    
+}
+
+
+.login-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #EBD9B4;
+    /* color: #fff; */
+    padding: 10px 20px;
+    border: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    
+}
+/* 
+.login-btn:hover {
+    background-color: #9DBC98;
+} */
+
+.login-btn i {
+    margin-right: 5px;
+}
+
+.wrapper {
+    background-image: url('website home.png');
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: 70%;
+    height: 100vh;
+  }
+
+.header{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10%;
+    margin-right: 5px;
+    background: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 15px;
+    color: #638889;
+    text-decoration: none;
+    font-weight: 600;
+}
+.logo img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* This will maintain the aspect ratio */
+}
+.navbar a,.navbar a.active{
+    font-size: 20px;
+    color: #638889;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+
+.navbar a:hover
+{
+    color: #00abf0 ;
+    
+}
+
+
+
+.col-md-8{
+    margin-left: 120px;
+}
+
+
+.landing-writing-service-list-item {
+    display: flex;
+    align-items: center;
+}
+.landing-writing-service-list{
+    font: size 18px;
+}
+.landing-writing-service-list-item img {
+    max-width: 50px; /* Adjust the width of the GIF as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust the spacing between the GIF and text content */
+}
+
+.text-content {
+    flex:1; /* Allows the text content to take up remaining space */
+    
+}
+
+
+/* Content Section */
+.content-section-white {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-section-white1 {
+background-color: #074173;
+color: #fff;
+}
+
+/* Page Title */
+.page-title1 {
+    color:#EBD9B4;
+    font-style:normal;
+    font-weight: bold;
+    display:inline-block;
+    
+}
+
+/* Common Text */
+.textCommon {
+    color: #666;
+}
+
+/* Writing Service List */
+.landing-writing-service-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.landing-writing-service-list-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/* Writer's Image */
+.writers-image img {
+    max-width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.writers-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #E74C3C;
+}
+
+/* Button Icon */
+.btn i {
+    margin-left: 5px;
+}
+
+/* Animation for Button Icon */
+.btn i {
+    animation: arrow-bounce 1s infinite;
+}
+
+@keyframes arrow-bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Add this within your CSS */
+
+/* Animation for bouncing icon */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounce {
+    animation: bounce 0.5s infinite;
+}
+
+
+
+
+.landing-writing-service-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.landing-writing-service-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: justify;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px; /* Fixed width for the list item */
+}
+
+.landing-writing-service-list-item img {
+    width: 50px; /* Fixed width for the image */
+    height: 50px; /* Fixed height for the image */
+    margin-bottom: 10px;
+}
+
+.landing-writing-service-list-item h4 {
+    font-size: 16px; /* Fixed font size for headings */
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.landing-writing-service-list-item p {
+    font-size: 14px; /* Fixed font size for paragraphs */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.orderOnWhatsApp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.orderOnWhatsApp a {
+    display: flex;
+    align-items: center;
+}
+
+.orderOnWhatsApp .whtIcon {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .orderOnWhatsApp {
+        bottom: 10px;
+        right: 10px;
+    }
+}
