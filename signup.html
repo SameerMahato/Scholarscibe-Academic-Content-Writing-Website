@@ -131,7 +131,7 @@ body {
     </form>
   </div>
   <div class="form-footer">
-    <p>Already have an account? <a href="#">Log In</a></p>
+    <p>Already have an account? <a href="loginpage.html">Log In</a></p>
   </div>
 </div>
 
@@ -141,6 +141,20 @@ body {
 $(document).ready(function() {
   // JavaScript/jQuery code can be added here for additional functionality if needed.
 });
+
+$(document).ready(function() {
+  // Function to handle form submission
+  $('#signup-form').submit(function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // You can perform form validation here if needed
+
+    // Simulate successful registration (replace this with your actual registration logic)
+    // For demonstration purposes, simply showing a success message
+    $('.form-body').html('<p style="color: green;">Successfully registered!</p>');
+  });
+});
+
 </script>
 
 </body>
